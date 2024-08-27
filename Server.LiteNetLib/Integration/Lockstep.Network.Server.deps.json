@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "cfe1dc2a80602aef150a12815387068463a61a0d"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -10,7 +10,10 @@
       "Lockstep.Network.Server/1.0.0": {
         "dependencies": {
           "Lockstep.Network": "1.0.0",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "Lockstep.Common.Reference": "1.0.0.0",
+          "Lockstep.Core.Logic.Reference": "1.0.0.0",
+          "Lockstep.Network.Reference": "1.0.0.0"
         },
         "runtime": {
           "Lockstep.Network.Server.dll": {}
@@ -23,12 +26,6 @@
         }
       },
       "Core.State/1.0.0": {
-        "dependencies": {
-          "Entitas": "0.0.0.0",
-          "FixMath.NET": "1.0.0.0",
-          "BEPUutilities": "1.5.0.0",
-          "Entitas.CodeGeneration.Attributes": "0.0.0.0"
-        },
         "runtime": {
           "Lockstep.Core.State.dll": {}
         }
@@ -41,8 +38,7 @@
       "Lockstep.Core.Logic/1.0.0": {
         "dependencies": {
           "Core.State": "1.0.0",
-          "Lockstep.Common": "1.0.0",
-          "DesperateDevs.Utils": "0.0.0.0"
+          "Lockstep.Common": "1.0.0"
         },
         "runtime": {
           "Lockstep.Core.Logic.dll": {}
@@ -56,7 +52,31 @@
           "Lockstep.Network.dll": {}
         }
       },
-      "Entitas.Reference/0.0.0.0": {
+      "Lockstep.Common.Reference/1.0.0.0": {
+        "runtime": {
+          "Lockstep.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Lockstep.Core.Logic.Reference/1.0.0.0": {
+        "runtime": {
+          "Lockstep.Core.Logic.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Lockstep.Network.Reference/1.0.0.0": {
+        "runtime": {
+          "Lockstep.Network.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Entitas/0.0.0.0": {
         "runtime": {
           "Entitas.dll": {
             "assemblyVersion": "0.0.0.0",
@@ -64,7 +84,7 @@
           }
         }
       },
-      "FixMath.NET.Reference/1.0.0.0": {
+      "FixMath.NET/1.0.0.0": {
         "runtime": {
           "FixMath.NET.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -72,7 +92,7 @@
           }
         }
       },
-      "BEPUutilities.Reference/1.5.0.0": {
+      "BEPUutilities/1.5.0.0": {
         "runtime": {
           "BEPUutilities.dll": {
             "assemblyVersion": "1.5.0.0",
@@ -80,7 +100,7 @@
           }
         }
       },
-      "Entitas.CodeGeneration.Attributes.Reference/0.0.0.0": {
+      "Entitas.CodeGeneration.Attributes/0.0.0.0": {
         "runtime": {
           "Entitas.CodeGeneration.Attributes.dll": {
             "assemblyVersion": "0.0.0.0",
@@ -88,7 +108,7 @@
           }
         }
       },
-      "DesperateDevs.Utils.Reference/0.0.0.0": {
+      "DesperateDevs.Utils/0.0.0.0": {
         "runtime": {
           "DesperateDevs.Utils.dll": {
             "assemblyVersion": "0.0.0.0",
@@ -138,27 +158,42 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Entitas.Reference/0.0.0.0": {
+    "Lockstep.Common.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "FixMath.NET.Reference/1.0.0.0": {
+    "Lockstep.Core.Logic.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "BEPUutilities.Reference/1.5.0.0": {
+    "Lockstep.Network.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Entitas.CodeGeneration.Attributes.Reference/0.0.0.0": {
+    "Entitas/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "DesperateDevs.Utils.Reference/0.0.0.0": {
+    "FixMath.NET/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BEPUutilities/1.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entitas.CodeGeneration.Attributes/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DesperateDevs.Utils/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
